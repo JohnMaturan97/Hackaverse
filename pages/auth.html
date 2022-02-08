@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css pages/auth.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="/index.html">Home</a>
+      <a href="event.html">Events</a>
+      <a href="profile.html">Profile</a>
+      <a class="active" href="auth.html">Account</a>
+    </div>
+
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+        <img
+          src="https://camo.githubusercontent.com/456a68969501b1efbb80f5a297574abc71ce0d0028fda1f285b358c626e703fd/68747470733a2f2f6d656469612e6973746f636b70686f746f2e636f6d2f766563746f72732f6861636b6174686c6f6e2d766563746f722d696c6c757374726174696f6e2d74696e792d70726f6772616d6d6572732d636f6d7065746974696f6e2d706572736f6e2d766563746f722d6964313138393837333835313f6b3d36266d3d3131383938373338353126733d3631327836313226773d3026683d5551564457466f62565848746349795f314f374a55456a456f64705952467361696436482d3242687262633d"
+          alt="Avatar"
+          class="avatar"
+        />
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" /> Remember
+          me
+        </label>
+      </div>
+
+      <div class="container" style="background-color: #f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </body>
+</html>
